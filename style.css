@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    background-color: #fffdf5;
+}
+
+article {
+
+    background-color: rgba(77, 75, 110, 0.7);
+    width: 800px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: black 2px 2px 6px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    border-top: cornsilk 1px dashed;
+    border-bottom: cornsilk 1px dashed;
+}
+
+.container__texto{
+    margin-right: 10px;
+    color: white;
+    
+}
+
+.container__img{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(123, 110, 160);
+    border-radius: 7px;
+}
